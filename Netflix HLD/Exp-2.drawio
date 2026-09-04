@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="rHYeNGUsC0bcSfHQXd4i">
+    <mxGraphModel dx="2060" dy="2485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-1" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="30" x="401" y="-450" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-27" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Users" vertex="1">
+          <mxGeometry height="40" width="80" x="376" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-17" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbkpsqWfTf4dM5n_krLs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-18" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbkpsqWfTf4dM5n_krLs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DNS" vertex="1">
+          <mxGeometry height="40" width="80" x="376" y="-324" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-33" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-39" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CDN&lt;br&gt;Edge Server" vertex="1">
+          <mxGeometry height="50" width="99" x="153" y="-241" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-19" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbkpsqWfTf4dM5n_krLs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Load Balancer" vertex="1">
+          <mxGeometry height="40" width="99" x="573" y="-241" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-20" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Gateway" vertex="1">
+          <mxGeometry height="40" width="80" x="582" y="-141" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-21" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-22" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbkpsqWfTf4dM5n_krLs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-23" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="APP servers" vertex="1">
+          <mxGeometry height="40" width="80" x="582" y="-41" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-35" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="User Service" vertex="1">
+          <mxGeometry height="40" width="120" x="426" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-24" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbkpsqWfTf4dM5n_krLs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Content service" vertex="1">
+          <mxGeometry height="40" width="120" x="561" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-37" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search service" vertex="1">
+          <mxGeometry height="40" width="120" x="691" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-25" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbkpsqWfTf4dM5n_krLs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-26" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbkpsqWfTf4dM5n_krLs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Redis" vertex="1">
+          <mxGeometry height="40" width="80" x="581" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SQL DB" vertex="1">
+          <mxGeometry height="40" width="80" x="520" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NoSQL DB" vertex="1">
+          <mxGeometry height="40" width="80" x="650" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-14" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);gradientColor=none;" value="&lt;div&gt;EXP 2&lt;/div&gt;NETFLIX HLD&amp;nbsp;&lt;div&gt;24BCS10965 (SATYAM GARG)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="330" x="249" y="-1140" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-50" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FbkpsqWfTf4dM5n_krLs-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-32" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Origin Video Storage" vertex="1">
+          <mxGeometry height="50" width="120" x="23" y="-121" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-34" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="User DB" vertex="1">
+          <mxGeometry height="40" width="99" x="436.5" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-36" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="ElasticSearch" vertex="1">
+          <mxGeometry height="40" width="99" x="701.5" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-47" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbkpsqWfTf4dM5n_krLs-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-48" edge="1" parent="1" source="FbkpsqWfTf4dM5n_krLs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FbkpsqWfTf4dM5n_krLs-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-38" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="PlayBack&amp;nbsp; Service" vertex="1">
+          <mxGeometry height="60" width="120" x="257" y="-121" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-40" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="WatchHistory&lt;div&gt;Service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="94" x="215" y="-11" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-46" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Recommendation service" vertex="1">
+          <mxGeometry height="40" width="94" x="325" y="-11" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Origin Video Storage" vertex="1">
+          <mxGeometry height="60" width="120" x="24" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-51" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#FFFFFF);fontColor=light-dark(#333333,#030303);strokeColor=#666666;fontStyle=1;labelBackgroundColor=none;" value="Upload → Transcode → HLS/DASH → Origin Storage → CDN" vertex="1">
+          <mxGeometry height="40" width="421" x="276" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-52" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#FFFFFF);fontColor=light-dark(#333333,#030303);strokeColor=#666666;fontStyle=1;labelBackgroundColor=none;" value="User → Playback Service → CDN → Video Segments → User" vertex="1">
+          <mxGeometry height="40" width="413" x="284" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-53" parent="1" style="text;whiteSpace=wrap;html=1;align=right;fillColor=light-dark(#F5F5F5,#FFFFFF);fontColor=light-dark(#333333,#030303);strokeColor=#666666;fontStyle=1;labelBackgroundColor=none;" value="Content DB → Kafka → Search Indexer → Elasticsearch&#xa;                                      ↑&#xa;                                 Search Service&#xa;                                      ↑&#xa;                                  Search Bar" vertex="1">
+          <mxGeometry height="100" width="451" x="246" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-54" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#FFFFFF);fontColor=light-dark(#333333,#030303);strokeColor=#666666;fontStyle=1;labelBackgroundColor=none;" value="User Activity → Kafka → ┬→ Watch History&amp;nbsp;&lt;br&gt;                        └→ Recommendation → Redis → Home" vertex="1">
+          <mxGeometry height="50" width="340" x="357" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=light-dark(#F5F5F5,#FFFFFF);align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#333333,#030303);fontStyle=1;labelBackgroundColor=none;" value="VIdeo Playback" vertex="1">
+          <mxGeometry height="40" width="137" x="147" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-56" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#FFFFFF);fontColor=light-dark(#333333,#030303);strokeColor=#666666;fontStyle=1;labelBackgroundColor=none;" value="Video Processing" vertex="1">
+          <mxGeometry height="40" width="130" x="146" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-57" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#FFFFFF);fontColor=light-dark(#333333,#030303);strokeColor=#666666;fontStyle=1;labelBackgroundColor=none;" value="Search" vertex="1">
+          <mxGeometry height="100" width="99" x="149" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-58" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#FFFFFF);fontColor=light-dark(#333333,#030303);strokeColor=#666666;fontStyle=1;labelBackgroundColor=none;" value="Recommendation + History" vertex="1">
+          <mxGeometry height="50" width="209" x="148" y="856" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);fontSize=20;" value="Main Piplines" vertex="1">
+          <mxGeometry height="70" width="174" x="143" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-62" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=light-dark(#000000,#000000);align=left;verticalAlign=top;labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);fillColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;h3 class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;Functional Requirements&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/h3&gt;&lt;br&gt;&lt;div class=&quot;group TyagGW_tableContainer TyagGW_tableContainerWithTableOfContents&quot;&gt;&lt;div tabindex=&quot;-1&quot; class=&quot;TyagGW_tableWrapper flex flex-col-reverse w-fit&quot;&gt;&lt;table class=&quot;w-fit min-w-(--thread-content-width)&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th class=&quot;last:pe-10&quot;&gt;Module&lt;/th&gt;&lt;th class=&quot;last:pe-10&quot;&gt;Requirements&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Subscription&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Signup, Login, Payment, Paywall&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Content&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Classification, Genres, Trending, Watchlist&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;History&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Watch History, Completion Status, Continue Watching&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Search&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Search Bar, Content Search, Recommendations&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Player&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Resolution, Playback Speed, Languages, Subtitles&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;h3&gt;Non-Functional Requirements&lt;/h3&gt;&lt;h3&gt;&lt;br style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;div class=&quot;group TyagGW_tableContainer TyagGW_tableContainerWithTableOfContents&quot; style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;div tabindex=&quot;-1&quot; class=&quot;TyagGW_tableWrapper flex flex-col-reverse w-fit&quot;&gt;&lt;table class=&quot;w-fit min-w-(--thread-content-width)&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th class=&quot;last:pe-10&quot;&gt;Requirement&lt;/th&gt;&lt;th class=&quot;last:pe-10&quot;&gt;Goal&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Scalability&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Handle millions of users&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Availability&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;99.9%+ uptime&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Low Latency&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Fast API/Search response&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Reliability&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Smooth, low-buffer video playback&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Fault Tolerance&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;No single point of failure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Secure auth, data &amp;amp; payments&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Durability&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;No loss of user/content data&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Global Access&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;CDN-based worldwide delivery&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/h3&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;group TyagGW_tableContainer TyagGW_tableContainerWithTableOfContents&quot;&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="460" width="390" x="60" y="-930" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-64" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;div style=&quot;forced-color-adjust: none; font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b&gt;Estimations:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;table class=&quot;w-fit min-w-(--thread-content-width)&quot; style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;thead style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;th class=&quot;last:pe-10&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;Metric&lt;/th&gt;&lt;th class=&quot;last:pe-10&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;Estimate&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;Users&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;10M&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;DAU&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;4M&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;API RPS&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;~2.3K peak&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;App Servers&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;~10&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;Video Data&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;~8 PB/day&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;Peak Bandwidth&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;~3.75 Tbps&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;Origin Storage&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;~900 TB&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;CDN Cache&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;~60 TB&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;Redis&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;~256 GB&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;Watch History&lt;/td&gt;&lt;td style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;~7 TB/year&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="250" width="190" x="526" y="-930" as="geometry" />
+        </mxCell>
+        <mxCell id="FbkpsqWfTf4dM5n_krLs-65" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=light-dark(#000000,#000000);labelBackgroundColor=light-dark(#FFFFFF,#FFFFFF);" value="&lt;div class=&quot;&quot;&gt;&lt;section class=&quot;text-token-text-primary w-full focus:outline-none has-data-writing-block:pointer-events-none [&amp;amp;:has([data-writing-block])&amp;gt;*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-(--sticky-padding-top)&quot; dir=&quot;auto&quot;&gt;&lt;/section&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;section class=&quot;text-token-text-primary w-full focus:outline-none has-data-writing-block:pointer-events-none [&amp;amp;:has([data-writing-block])&amp;gt;*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]&quot; dir=&quot;auto&quot;&gt;&lt;div class=&quot;text-base my-auto mx-auto pb-8 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)&quot;&gt;&lt;div class=&quot;[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn&quot;&gt;&lt;div class=&quot;flex max-w-full flex-col gap-4 grow&quot;&gt;&lt;div dir=&quot;auto&quot; class=&quot;min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;amp;]:mt-1&quot; tabindex=&quot;0&quot;&gt;&lt;div class=&quot;flex w-full flex-col gap-1 empty:hidden&quot;&gt;&lt;div class=&quot;markdown prose dark:prose-invert wrap-break-word w-full dark markdown-new-styling&quot;&gt;&lt;h3&gt;Problem Statement&lt;/h3&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;Design a scalable video streaming platform like Netflix that allows millions of users to securely subscribe, discover, search, and stream movies and TV shows with personalized recommendations and a smooth, low-latency viewing experience.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="560" x="50" y="-1070" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
